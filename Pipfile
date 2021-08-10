@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-rest-knox = "*"
+djangorestframework = "*"
+django-heroku = "*"
+drf-yasg = "*"
+mysqlclient = "*"
+mysql-connector-python = "*"
+whitenoise = "*"
+psycopg2 = "*"
+gunicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
