@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-hk^$v(#f+6$1=yn-lr-nk$!^h%b=rpa_rdzm=gv^%w9)*bmf=^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['gentle-citadel-43214.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['universal-backend.herokuapp.com/', '127.0.0.1']
 
 
 # Application definition
@@ -139,7 +139,7 @@ STATICFILES_DIRS=[
     os.path.join(BASE_DIR, 'static')
 ]
 
-STATIC_HOST = 'https://gentle-citadel-43214.herokuapp.com/' if not DEBUG else ''
+STATIC_HOST = 'https://universal-backend.herokuapp.com/' if not DEBUG else ''
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
