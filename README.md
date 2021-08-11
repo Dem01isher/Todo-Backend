@@ -1,8 +1,6 @@
 # Todo-backend
-For testing:
-```
-https://universal-backend.herokuapp.com/
-```
+
+## This rest api was deployed using [Heroku](https://universal-backend.herokuapp.com/)
 
 ###### Download project:
 ```
