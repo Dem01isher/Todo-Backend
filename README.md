@@ -16,5 +16,5 @@ env\Scripts\activate.bat
 ```
 ###### Install dependencies:
 ```
-python -m pip install -r requirements.txt
+python -m pipenv install -r requirements.txt
 ```
